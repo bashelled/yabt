@@ -1,0 +1,26 @@
+# .bashrc - Custom config for bash, with Yabt/Yazt on Bash settings
+# -----------------------------------------------------------------
+# See the Yazt wiki for more info.
+
+## Installation place of Yabt.
+yazt="/opt/yabt"
+
+## Your Yazt theme. If not picked, the default (default.yzt) will be picked.
+yazttheme="default"
+
+## Turns on Yazp (or of you want, Yabp, the
+## plugin backend for Yazt.
+## WARN: Not much plugins are installed by default.
+yazpon=true
+
+ ## Yazp plugins. Put it in this format:
+ ## yazpplugins=(
+ ## plugin 
+ ## otherplugin
+ ## )
+ yazpplugins=(
+ brew
+ )
+
+# Initializes Yabt.
+source "$yazt/yazt.sh"

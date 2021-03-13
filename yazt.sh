@@ -20,7 +20,7 @@ fi
 
 # Yazp loader.
 if [ "$yazpon" = "true" ]; then
-for yazpplugin ($yazpplugins); do
+for yazpplugin in $yazpplugins; do
  if [ ! "$yazpplugin" = ""  ]; then
   if [ -f "$yaztcustom/$yazpplugin.yzp" ]; then
     source "$yaztcustom/$yazpplugin.yzp"

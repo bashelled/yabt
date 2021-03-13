@@ -1,14 +1,11 @@
-# Yazt
-> Yet another ZSH theme 
+# Yabt
+> Yet another BASH theme 
 
-Yazt is a simple yet challenging ZSH theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in bash, then even fish.
+Remember when we said with a few tweaks, you could use Yazt in bash? This is it.
+Yabt is a simple yet challenging BASH theme manager in maintence that is still compatible with everything. You can still use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in zsh again, then even fish. (Yaft won't happen from me)
 
 ## Installation
-```
-git clone https://github.com/bashelled/yazt.git ~/.yazt
-cp ~/.yazt/etc/templates/rcs/zshrc ~/.zshrc
-chsh -s $(which zsh)
-```
-###### You can use the .deb in the Releases tab. See docs/debian.md.
+Install is only supported via deb file. On RedHat/Fedora/SUSE, use alien, and on Arch/Gentoo/Void/Slack/macOS/Cygwin, clone manually using instructions from Yazt.
+###### See docs/debian.md.
 
 By default, no themes are added. You can add them yourself or copy from sources like [Oh My ZSH](ohmyz.sh) or [Bash-it](https://github.com/Bash-it/bash-it).
